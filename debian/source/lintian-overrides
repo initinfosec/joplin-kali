@@ -1,0 +1,10 @@
+source-is-missing Joplin
+source-is-missing chrome-sandbox
+source-is-missing libEGL.so
+source-is-missing swiftshader/*
+source-is-missing libGLESv2.so
+source-is-missing libffmpeg.so
+changelog-is-dh_make-template
+description-starts-with-package-name
+
+
