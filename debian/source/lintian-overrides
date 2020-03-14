@@ -7,7 +7,5 @@ source-is-missing libffmpeg.so
 joplin source: debian-rules-is-dh_make-template
 ## WE JUST WANT IT TO BUILD FOR NOW
 joplin source: description-starts-with-package-name
-joplin binary: description-starts-with-package-name
-
-
+joplin: description-starts-with-package-name
 
