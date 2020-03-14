@@ -15,4 +15,4 @@ Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi
 Recommends: pulseaudio | libasound2
 Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
 Description: Joplin for Desktop
- Joplin for desktop. This app was originally developed by Laurent Cozic. This debian install is an unofficial/unofficially supported port of the original application from source, maintained by initinfosec. This project was OK'd by the original author, but support for this port will be fielded by initinfosec.
+ Joplin for desktop. Lowercase joplin is a metapackage pointing to the Joplin uppercase binary. This app was originally developed by Laurent Cozic. This debian install is an unofficial/unofficially supported port of the original application from source, maintained by initinfosec. This project was OK'd by the original author, but support for this port will be fielded by initinfosec.
