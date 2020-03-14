@@ -14,5 +14,5 @@ Architecture: amd64
 Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin, ${shlibs:Depends}, ${misc:Depends}
 Recommends: pulseaudio | libasound2
 Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
-Description: Joplin for Desktop 
- Joplin is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks. The notes are searchable, can be copied, tagged and modified either from the applications directly or from your own text editor. The notes are in Markdown format. The app was originally developed by Laurent Cozic. This debian install is an unofficial/unofficially supported port of the original application from source, maintained by initinfosec. This project was OK'd by the original author, but support for this port will be fielded by initinfosec.
+Description: Joplin for Desktop
+ Joplin for desktop. This app was originally developed by Laurent Cozic. This debian install is an unofficial/unofficially supported port of the original application from source, maintained by initinfosec. This project was OK'd by the original author, but support for this port will be fielded by initinfosec.
