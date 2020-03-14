@@ -4,8 +4,8 @@ source-is-missing libEGL.so
 source-is-missing swiftshader/*
 source-is-missing libGLESv2.so
 source-is-missing libffmpeg.so
-joplin source: changelog-is-dh_make-template
+joplin source: debian-rules-is-dh_make-template
 ## WE JUST WANT IT TO BUILD FOR NOW
-joplin source: description-starts-with-package-name
+joplin: description-starts-with-package-name
 
 
