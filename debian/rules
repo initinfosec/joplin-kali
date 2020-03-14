@@ -16,8 +16,9 @@
 
 override_dh_strip:
 	dh_strip --exclude 7za
-
+	
 %:
+	dh_link lib/joplin/Joplin bin/joplin
 	dh $@
 
 # dh_make generated override targets
