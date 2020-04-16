@@ -8,6 +8,15 @@ Caveat emptor: As such, this package is unsupported in this format by the develo
 
 Please reference the official [Joplin website](https://joplinapp.org/) and [git repo](https://github.com/laurent22/joplin) for more info about Joplin.
 
+## Installation
+
+Until this package is offocially in kali repos, please install via the following method, being sure to change items in angle brackets:
+
+```
+cd <desired_install direcctory>
+wget https://github.com/initinfosec/joplin-kali/blob/master/<joplin_deb_file>.deb
+sudo apt install <joplin_deb_file>.deb
+```
 
 ## What is Joplin?
 
