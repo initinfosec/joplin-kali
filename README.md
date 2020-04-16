@@ -14,7 +14,7 @@ Until this package is offocially in kali repos, please install via the following
 
 ```
 cd <desired_install direcctory>
-wget https://github.com/initinfosec/joplin-kali/blob/master/<joplin_deb_file>.deb
+wget https://github.com/initinfosec/joplin-kali/raw/master/<joplin_deb_file>.deb
 sudo dpkg -i <joplin_deb_file>.deb
 ```
 
