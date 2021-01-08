@@ -1,0 +1,16 @@
+Package: joplin
+Version: 1.5.11
+License: MIT
+Vendor: Kali Developers <devel@kali.org>
+Architecture: amd64
+Maintainer: Kali Developers <devel@kali.org>
+Uploaders: initinfosec <iniitnfosec@protonmail.org>
+Installed-Size: 1155406
+Depends: libnss3, libsecret-1-dev
+Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
+Recommends: pulseaudio | libasound2
+Section: Office
+Priority: optional
+Homepage: https://github.com/laurent22/joplin#readme
+Description: Joplin for Desktop
+ Joplin for Desktop - a note-taking and to-do application, with notes in markdown. Developed by Laurent Cozic. This package is an unofficially supported port of the original application, maintained by initinfosec & the Kali devs, with approval from the author.

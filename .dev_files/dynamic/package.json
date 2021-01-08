@@ -1,0 +1,46 @@
+{
+  "name": "joplin",
+  "version": "1.5.11",
+  "description": "Joplin for Desktop",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurent22/joplin.git"
+  },
+  "author": "Laurent Cozic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laurent22/joplin/issues"
+  },
+  "build": {
+    "appId": "net.cozic.joplin-desktop",
+    "productName": "Joplin",
+    "linux": {
+      "icon": "joplin.png",
+      "category": "Office",
+      "desktop": {
+        "Icon": "joplin"
+      },
+      "target": [
+        {
+          "target": "deb",
+          "arch": "x64"
+        }
+      ]
+    },
+    "deb": {
+      "maintainer": "Kali Developers <devel@kali.org>",
+      "priority": "optional",
+      "depends": ["libnss3", "libsecret-1-dev"]
+    }
+  },
+  "homepage": "https://github.com/laurent22/joplin#readme",
+  "optionalDependencies": {
+    "7zip-bin-linux": "^1.0.1"
+  }
+}

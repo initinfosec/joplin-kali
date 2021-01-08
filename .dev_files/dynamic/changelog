@@ -1,0 +1,19 @@
+joplin (1.5.11-0kali1) urgency=medium
+
+ * Update from stable rel 1.5.11 from AppImage soruce. Applied kali-specific
+ mods after build.
+
+ -- initinfosec <initinfosec@protonmail.com> Fri, 08 Jan 2021 16:00:00 -0500
+
+joplin (1.0.201-0kali1) kali-dev; urgency=medium
+
+  * Update from stable rel .193 to .201 from official joplin source. Applied
+    the usual debian/kali-specific mods.
+
+ -- initinfosec <initinfosec@protonmail.com>  Thurs, 16 Apr 2020 13:00:00 -0500
+
+joplin (1.0.193-0kali1) kali-dev; urgency=medium
+
+  * Initial release 
+
+ -- initinfosec <initinfosec@protonmail.com>  Tue, 10 Mar 2020 15:14:53 -0500
