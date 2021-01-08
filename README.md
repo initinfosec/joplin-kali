@@ -8,6 +8,10 @@ Caveat emptor: As such, this package is unsupported in this format by the develo
 
 Please reference the official [Joplin website](https://joplinapp.org/) and [git repo](https://github.com/laurent22/joplin) for more info about Joplin.
 
+## Brief Changelog
+
+Updated dev branch with new test .deb package for kali based on latest AppImage format. This is currently unsupported and still in dev/WIP. Use at your own risk.
+
 ## Installation
 
 Until this package is offocially in kali repos, please install via the following method, being sure to change items in angle brackets:
@@ -15,7 +19,7 @@ Until this package is offocially in kali repos, please install via the following
 ```
 cd <desired_install direcctory>
 wget https://github.com/initinfosec/joplin-kali/raw/master/<joplin_deb_file>.deb
-sudo dpkg -i <joplin_deb_file>.deb
+sudo apt install ./<joplin_deb_file>.deb
 ```
 
 ## What is Joplin?
