@@ -1,9 +1,9 @@
-joplin (1.5.11-0kali1) urgency=medium
+joplin (1.6.6-0kali1) urgency=medium
 
- * Update from stable rel 1.5.11 from AppImage soruce. Applied kali-specific
- mods after build.
+ * Update from stable rel 1.6.6 from soruce. Applied kali-specific
+ mods after build. [Had to build from Ubuntu, still looking into things]
 
- -- initinfosec <initinfosec@protonmail.com> Fri, 08 Jan 2021 16:00:00 -0500
+ -- initinfosec <initinfosec@protonmail.com> Mon, 11 Jan 2021 16:00:00 -0500
 
 joplin (1.0.201-0kali1) kali-dev; urgency=medium
 
