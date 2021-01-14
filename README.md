@@ -1,3 +1,5 @@
+## Notice - This repo has moved to gitlab! https://gitlab.com/initinfosec/joplin-kali
+
 # joplin-kali
 
 UNOFFICIAL joplin debian port, specifically for the Kali Linux Repos. - currently built for x64 debian-based distros
